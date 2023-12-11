@@ -1,4 +1,4 @@
-# Welcome to My Website
+## Welcome to My Website
 
 This is the main page of my personal website.
 
