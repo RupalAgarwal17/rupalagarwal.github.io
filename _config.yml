@@ -1,2 +1,33 @@
+# Site settings
 title: My Website
+description: A brief description of your website
+baseurl: "" # the subpath of your site, e.g., /blog
+url: "https://yourusername.github.io" # your GitHub Pages URL
+
+# Build settings
 theme: minima
+plugins:
+  - jekyll-feed
+
+# Minima theme settings
+minima:
+  social_links:
+    twitter: yourtwitterhandle
+    github: yourgithubusername
+  # Add other social links as needed
+
+# Navigation Links
+header_pages:
+  - about.md
+  - contact.md
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list to override
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby
